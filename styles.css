@@ -12,24 +12,6 @@ header {
     padding: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    background-color: #004d80;
-    padding: 10px;
-}
-
-nav li {
-    margin: 0 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 600;
-}
-
 section {
     background-color: #ffffff;
     margin: 20px;
