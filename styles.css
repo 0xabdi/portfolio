@@ -105,3 +105,25 @@ a:hover {
     height: 150px; /* Adjust the height as needed */
 }
 
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-content {
+        text-align: center;
+    }
+
+    .profile-picture {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .profile-picture img {
+        width: 100%; /* Make the image responsive to the container */
+        max-width: 200px; /* Adjust the maximum width as needed */
+        height: auto; /* Maintain the aspect ratio */
+    }
+}
+
