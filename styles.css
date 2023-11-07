@@ -8,8 +8,9 @@ body {
 header {
     background-color: #0077b6;
     color: #ffffff;
-    text-align: center;
+    text-align: left;
     padding: 20px;
+    flex: 1;
 }
 
 section {
@@ -74,7 +75,7 @@ a:hover {
 
 .social-icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .social-icon {
@@ -82,5 +83,25 @@ a:hover {
     flex-direction: column;
     align-items: left;
     text-align: center;
-    margin: 5px; /* Adjust the margin as needed for spacing */
+    margin: 1px; /* Adjust the margin as needed for spacing */
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #0077b6; /* Set your desired background color */
+    padding: 20px;
+}
+
+.profile-picture {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-picture img {
+    max-width: 100%;
+    border-radius: 50%;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+}
+
