@@ -1,0 +1,155 @@
+/* Originally copied from msuiche.com/assets/css */
+
+.land {
+    fill: #dddddd;
+    stroke: #fff;
+    stroke-opacity: 1;
+    stroke-width: 0.5px;
+}
+
+.border {
+    fill: none;
+    stroke-width: 1px;
+}
+  
+.interior {
+    stroke: white;
+    stroke-opacity: 0.2;
+}
+  
+.exterior {
+    stroke: #bbbbbb;
+}
+  
+.airport-arc {
+    fill: none;
+    stroke: #252525;
+    opacity: 0.1;
+    stroke-width: 1;
+}
+
+.airport:hover .airport-arc {
+    stroke: red !important;
+    stroke-width: 1;
+    opacity: 0.8;
+}
+
+.airport:hover circle {
+    stroke: #252525;
+    opacity: 0.6;
+    fill-opacity: 0.6 !important;
+}
+
+.airport-cell {
+    fill: none;
+    /* pointer-events: all; */
+}
+
+
+text.text-hover {
+	fill: #a00;
+}
+
+div.tooltip {	
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 5px 15px 5px 15px;
+    background-color: #333333;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 5px;
+    pointer-events: none;
+
+    font-size: 14px;
+    color: #f1f1f1;
+
+    border: solid;
+    border-width: 0px;
+    text-align: left;
+}
+
+text.active {
+    fill: red;
+}
+
+span.details {
+    white-space:nowrap;
+    display: inline;
+}
+
+/* treemap */
+
+.textdiv {
+    font-size: 12px;
+    padding: 5px;
+	cursor: pointer;
+	overflow:none;
+}
+
+.textdiv .title {
+    font-weight: bold;
+    font-size: 11px !important;;
+    margin-top: 8px;
+}
+
+.textdiv p{
+	line-height: 13px;
+	margin:0 0 4px !important;
+	padding:0px;
+	font-size:10px !important;
+}
+
+rect.parent,
+.grandparent rect {
+  stroke-width: 2px;
+}
+
+.grandparent:hover rect {
+  fill: #bbb;
+}
+
+.children rect.parent,
+.grandparent rect {
+  cursor: pointer;
+}
+
+.children rect.child {
+  opacity: 0;
+}
+
+.children rect.parent {
+}
+
+.children:hover rect.child {
+  opacity: 1;
+  stroke-width: 1px;
+}
+
+.children:hover rect.parent {
+  opacity: 0;
+}
+
+.legend {
+  margin-bottom:8px !important;
+}
+
+.legend rect {
+  stroke-width: 0px;
+}
+
+.legend text {
+  text-anchor: middle;
+  pointer-events: auto;
+  font-size: 13px;
+  font-family: sans-serif;
+  fill: black;
+}
+
+.column {
+    font-size: 12px;
+}
+
+.row {
+    font-size: 12px;
+}
